@@ -1,0 +1,160 @@
+Table users {
+  id int [pk, increment]
+  username nvarchar(50) [unique]
+  email nvarchar(100) [unique]
+  passwordhash nvarchar(max)
+  firstname nvarchar(50)
+  lastname nvarchar(50)
+  isadmin bit
+  createdat datetime2
+  updatedat datetime2
+}
+
+Table categories {
+  id int [pk, increment]
+  name nvarchar(150)
+  slug nvarchar(150) [unique]
+  parentcategoryid int [ref: > categories.id, null]
+  description nvarchar(max) [null]
+}
+
+Table products {
+  id int [pk, increment]
+  name nvarchar(200)
+  slug nvarchar(200) [unique]
+  shortdescription nvarchar(max)
+  longdescription nvarchar(max)
+  categoryid int [ref: > categories.id]
+  isdigital bit
+  price decimal(10,2)
+  sku nvarchar(100) [unique]
+  mainimageurl nvarchar(max) [null]
+  createdat datetime2
+  updatedat datetime2
+  ispublished bit
+  stocktracked bit
+}
+
+Table productvariants {
+  id int [pk, increment]
+  productid int [ref: > products.id]
+  variantname nvarchar(150)
+  sku nvarchar(100) [unique]
+  price decimal(10,2) [null]
+}
+
+Table inventory {
+  id int [pk, increment]
+  productvariantid int [ref: > productvariants.id]
+  quantity int
+  location nvarchar(100) [null]
+}
+
+Table orders {
+  id int [pk, increment]
+  userid int [ref: > users.id, null]
+  ordernumber nvarchar(50) [unique]
+  status nvarchar(20)
+  totalamount decimal(10,2)
+  currency nvarchar(10)
+  createdat datetime2
+  updatedat datetime2
+  paymentid int [ref: > payments.id, null]
+}
+
+Table orderitems {
+  orderid int [ref: > orders.id, pk]
+  productid int [ref: > products.id, pk]
+  productvariantid int [ref: > productvariants.id, null]
+  quantity int
+  unitprice decimal(10,2)
+  linetotal decimal(10,2)
+}
+
+Table shoppingcarts {
+  id int [pk, increment]
+  userid int [ref: > users.id, null]
+  createdat datetime2
+}
+
+Table cartitems {
+  id int [pk, increment]
+  cartid int [ref: > shoppingcarts.id]
+  productid int [ref: > products.id]
+  productvariantid int [ref: > productvariants.id, null]
+  quantity int
+  addedat datetime2
+}
+
+Table addresses {
+  id int [pk, increment]
+  userid int [ref: > users.id]
+  type nvarchar(20)
+  fullname nvarchar(150)
+  line1 nvarchar(200)
+  line2 nvarchar(200) [null]
+  city nvarchar(100)
+  postalcode nvarchar(20)
+  country nvarchar(100)
+  phone nvarchar(50)
+  isdefaultshipping bit
+  isdefaultbilling bit
+}
+
+Table payments {
+  id int [pk, increment]
+  orderid int [ref: > orders.id]
+  paymentprovider nvarchar(50)
+  providerpaymentid nvarchar(200)
+  amount decimal(10,2)
+  currency nvarchar(10)
+  status nvarchar(20)
+  createdat datetime2
+}
+
+Table reviews {
+  id int [pk, increment]
+  productid int [ref: > products.id]
+  userid int [ref: > users.id]
+  rating int
+  title nvarchar(150)
+  body nvarchar(max)
+  createdat datetime2
+  isapproved bit
+}
+
+Table productimages {
+  id int [pk, increment]
+  productid int [ref: > products.id]
+  imageurl nvarchar(max)
+  sortorder int
+  alttext nvarchar(200)
+}
+
+Table tags {
+  id int [pk, increment]
+  name nvarchar(100)
+  slug nvarchar(100)
+}
+
+Table producttags {
+  productid int [ref: > products.id, pk]
+  tagid int [ref: > tags.id, pk]
+}
+
+Table digitaldownloads {
+  id int [pk, increment]
+  productid int [ref: > products.id]
+  fileurl nvarchar(max)
+  downloadkey nvarchar(200)
+  accessexpiry datetime2 [null]
+  downloadlimit int
+}
+
+Table auditlogs {
+  id int [pk, increment]
+  userid int [ref: > users.id, null]
+  action nvarchar(150)
+  meta nvarchar(max)
+  createdat datetime2
+}

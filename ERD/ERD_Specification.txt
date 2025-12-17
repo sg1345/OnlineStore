@@ -1,0 +1,216 @@
+Users
+	Id (int, PK)
+	UserName (nvarchar(50), UNIQUE)
+	Email (nvarchar(100), UNIQUE)
+	PasswordHash (nvarchar(max))
+	FirstName (nvarchar(50))
+	LastName (nvarchar(50))
+	IsAdmin (bit)
+	CreatedAt (datetime2)
+	UpdatedAt (datetime2)
+
+	Relationships:
+		Users 1..* Orders
+		Users 1..* Addresses
+		Users 1..* Reviews
+		Users 0..1 ShoppingCarts
+		Users 1..* AuditLogs
+
+Categories
+	Id (int, PK)
+	Name (nvarchar(150))
+	Slug (nvarchar(150), UNIQUE)
+	ParentCategoryId (int, FK, NULL)
+	Description (nvarchar(max), NULL)
+
+	Relationships:
+		Categories 1..* Products
+		Categories 0..* Subcategories (self-reference)!!!!!!!!!!!!!
+
+Products
+	Id (int, PK)
+		Name (nvarchar(200))
+	Slug (nvarchar(200), UNIQUE)
+	ShortDescription (nvarchar(max))
+	LongDescription (nvarchar(max))
+	CategoryId (int, FK)
+	IsDigital (bit)
+	Price (decimal(10,2))
+	SKU (nvarchar(100), UNIQUE)
+	MainImageUrl (nvarchar(max), NULL)
+	CreatedAt (datetime2)
+	UpdatedAt (datetime2)
+	IsPublished (bit)
+	StockTracked (bit)
+
+	Relationships:
+		Products 1..* ProductVariants
+		Products 1..* ProductImages
+		Products 1..* Reviews
+		Products 1..* OrderItems
+		Products 0..1 DigitalDownloads
+		Products .. Tags (via ProductTags)
+
+ProductVariants
+	Id (int, PK)
+	ProductId (int, FK)
+	VariantName (nvarchar(150))
+	SKU (nvarchar(100), UNIQUE)
+	Price (decimal(10,2), NULL)
+
+	Relationships:
+		ProductVariants 1..1 Inventory
+		ProductVariants 1..* OrderItems
+		ProductVariants 1..* CartItems
+
+Inventory
+	Id (int, PK)
+	ProductVariantId (int, FK)
+	Quantity (int)
+	Location (nvarchar(100), NULL)
+
+	Relationships:
+		Inventory *..1 ProductVariants
+
+Orders
+	Id (int, PK)
+	UserId (int, FK, NULL)
+	OrderNumber (nvarchar(50), UNIQUE)
+	Status (nvarchar(20))
+	TotalAmount (decimal(10,2))
+	Currency (nvarchar(10))
+	CreatedAt (datetime2)
+	UpdatedAt (datetime2)
+	PaymentId (int, FK, NULL)
+
+	Relationships:
+		Orders 1..* OrderItems
+		Orders 0..1 Payments
+		Users 1..* Orders
+
+OrdersItems
+	OrderId (int, FK, PK)
+	ProductId (int, FK, PK)
+	ProductVariantId (int, FK, NULL)
+	Quantity (int)
+	UnitPrice (decimal(10,2))
+	LineTotal (decimal(10,2))
+
+	Relationships:
+		OrderItems *..1 Orders
+		OrderItems *..1 Products
+		OrderItems *..1 ProductVariants
+
+ShoppingCarts
+	Id (int, PK)
+	UserId (int, FK, NULL)
+	CreatedAt (datetime2)
+
+	Relationships:
+		ShoppingCarts 1..* CartItems
+		Users 0..1 ShoppingCarts
+
+CartItems
+	Id (int, PK)
+	CartId (int, FK)
+	ProductId (int, FK)
+	ProductVariantId (int, FK, NULL)
+	Quantity (int)
+	AddedAt (datetime2)
+
+	Relationships:
+		CartItems *..1 ShoppingCarts
+		CartItems *..1 Products
+		CartItems *..1 ProductVariants
+
+Addresses
+	Id (int, PK)
+	UserId (int, FK)
+	Type (nvarchar(20))
+	FullName (nvarchar(150))
+	Line1 (nvarchar(200))
+	Line2 (nvarchar(200), NULL)
+	City (nvarchar(100))
+	PostalCode (nvarchar(20))
+	Country (nvarchar(100))
+	Phone (nvarchar(50))
+	IsDefaultShipping (bit)
+	IsDefaultBilling (bit)
+
+	Relationships:
+		Users 1..* Addresses
+
+Payments
+	Id (int, PK)
+	OrderId (int, FK)
+	PaymentProvider (nvarchar(50))
+	ProviderPaymentId (nvarchar(200))
+	Amount (decimal(10,2))
+	Currency (nvarchar(10))
+	Status (nvarchar(20))
+	CreatedAt (datetime2)
+
+	Relationships:
+		Payments 1..1 Orders
+
+Reviews
+	Id (int, PK)
+	ProductId (int, FK)
+	UserId (int, FK)
+	Rating (int)
+	Title (nvarchar(150))
+	Body (nvarchar(max))
+	CreatedAt (datetime2)
+	IsApproved (bit)
+
+	Relationships:
+		Reviews *..1 Products
+		Reviews *..1 Users
+
+ProductImages
+	Id (int, PK)
+	ProductId (int, FK)
+	ImageUrl (nvarchar(max))
+	SortOrder (int)
+	AltText (nvarchar(200))
+
+	Relationships:
+		ProductImages *..1 Products
+
+Tags
+	Id (int, PK)
+	Name (nvarchar(100))
+	Slug (nvarchar(100))
+
+	Relationships:
+		Tags .. Products (via ProductTags)
+
+ProductTags
+	ProductId (int, FK)
+	TagId (int, FK)
+	Composite PK: (ProductId, TagId)
+
+	Relationships:
+		ProductTags *..1 Products
+		ProductTags *..1 Tags
+
+DigitalDownloads
+	Id (int, PK)
+	ProductId (int, FK)
+	FileUrl (nvarchar(max))
+	DownloadKey (nvarchar(200))
+	AccessExpiry (datetime2, NULL)
+	DownloadLimit (int)
+
+	Relationships:
+		DigitalDownloads *..1 Products
+
+AuditLogs
+	Id (int, PK)
+	UserId (int, FK, NULL)
+	Action (nvarchar(150))
+	Meta (nvarchar(max))
+	CreatedAt (datetime2)
+
+	Relationships:
+		AuditLogs *..1 Users (optional)

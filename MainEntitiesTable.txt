@@ -1,0 +1,128 @@
+## Main entities / tables
+
+1. **Users**
+
+   * Id (PK)
+   * UserName
+   * Email
+   * PasswordHash (handled by Identity if used)
+   * FirstName, LastName
+   * IsAdmin (bool)
+   * CreatedAt, UpdatedAt
+
+2. **Categories**
+
+   * Id (PK)
+   * Name
+   * Slug
+   * ParentCategoryId (FK → Categories.Id) — optional for nested categories
+   * Description
+
+3. **Products**
+
+   * Id (PK)
+   * Name
+   * Slug
+   * ShortDescription
+   * LongDescription
+   * CategoryId (FK → Categories.Id)
+   * IsDigital (bool) — set true for the free fitness tracker app
+   * Price (decimal)
+   * SKU
+   * MainImageUrl
+   * CreatedAt, UpdatedAt
+   * IsPublished, StockTracked (bool)
+
+4. **ProductVariants** (optional but recommended for sizes/colors)
+
+   * Id (PK)
+   * ProductId (FK → Products.Id)
+   * VariantName (e.g., "Red / L")
+   * SKU
+   * Price (nullable: overrides product price)
+   * StockQuantity
+
+5. **Inventory** (if you prefer centralized stock)
+
+   * Id
+   * ProductVariantId (FK) or ProductId
+   * Quantity
+   * Location (optional)
+
+6. **Orders**
+
+   * Id (PK)
+   * UserId (FK → Users.Id) — nullable for guest orders
+   * OrderNumber (unique)
+   * Status (enum: Pending, Paid, Shipped, Completed, Cancelled, Refunded)
+   * TotalAmount
+   * Currency
+   * CreatedAt, UpdatedAt
+   * PaymentId (FK → Payments.Id)
+
+7. **OrderItems**
+
+   * Id (PK) (maybe without ID and with composite key OrderId/ProductId. A many-to-many)
+   * OrderId (FK → Orders.Id)
+   * ProductId (FK → Products.Id)
+   * ProductVariantId (FK → ProductVariants.Id) — nullable
+   * Quantity
+   * UnitPrice
+   * LineTotal
+
+8. **ShoppingCarts** / **CartItems**
+
+   * CartId (PK) or UserId (if cart tied to logged-in user)
+   * CartItems: Id, CartId, ProductId, ProductVariantId, Quantity, AddedAt
+
+9. **Addresses**
+
+   * Id (PK)
+   * UserId (FK) (maybe i should put AddressId in Users)
+   * Type (Shipping/Billing)
+   * FullName, Line1, Line2, City, PostalCode, Country, Phone
+   * IsDefaultShipping, IsDefaultBilling
+
+10. **Payments**
+
+    * Id (PK)
+    * OrderId (FK)
+    * PaymentProvider (Stripe/PayPal/mock)
+    * ProviderPaymentId
+    * Amount
+    * Currency
+    * Status (Pending, Success, Failed)
+    * CreatedAt
+
+11. **Reviews**
+
+    * Id (PK)
+    * ProductId (FK)
+    * UserId (FK)
+    * Rating (int)
+    * Title
+    * Body
+    * CreatedAt, IsApproved
+
+12. **ProductImages**
+
+    * Id (PK)
+    * ProductId (FK)
+    * ImageUrl
+    * SortOrder, AltText
+
+13. **Tags** (optional)
+
+    * Id, Name, Slug
+    * ProductTags (join) — ProductId, TagId
+
+14. **DigitalDownloads** (for the free fitness tracker product)
+
+    * Id
+    * ProductId (FK)
+    * FileUrl / DownloadKey / AccessExpiry
+    * DownloadLimit
+
+15. **Audit / ActivityLog** (optional for portfolio polish)
+
+    * Id, UserId, Action, Meta, CreatedAt
