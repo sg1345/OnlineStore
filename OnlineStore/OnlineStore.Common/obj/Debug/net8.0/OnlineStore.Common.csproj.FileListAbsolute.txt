@@ -1,0 +1,12 @@
+D:\Users\GitHub\OnlineStore\OnlineStore\OnlineStore.Common\obj\Debug\net8.0\OnlineStore.Common.GeneratedMSBuildEditorConfig.editorconfig
+D:\Users\GitHub\OnlineStore\OnlineStore\OnlineStore.Common\obj\Debug\net8.0\OnlineStore.Common.AssemblyInfoInputs.cache
+D:\Users\GitHub\OnlineStore\OnlineStore\OnlineStore.Common\obj\Debug\net8.0\OnlineStore.Common.AssemblyInfo.cs
+D:\Users\GitHub\OnlineStore\OnlineStore\OnlineStore.Common\obj\Debug\net8.0\OnlineStore.Common.csproj.CoreCompileInputs.cache
+D:\Users\GitHub\OnlineStore\OnlineStore\OnlineStore.Common\obj\Debug\net8.0\OnlineStore.Common.sourcelink.json
+D:\Users\GitHub\OnlineStore\OnlineStore\OnlineStore.Common\bin\Debug\net8.0\OnlineStore.Common.deps.json
+D:\Users\GitHub\OnlineStore\OnlineStore\OnlineStore.Common\bin\Debug\net8.0\OnlineStore.Common.dll
+D:\Users\GitHub\OnlineStore\OnlineStore\OnlineStore.Common\bin\Debug\net8.0\OnlineStore.Common.pdb
+D:\Users\GitHub\OnlineStore\OnlineStore\OnlineStore.Common\obj\Debug\net8.0\OnlineStore.Common.dll
+D:\Users\GitHub\OnlineStore\OnlineStore\OnlineStore.Common\obj\Debug\net8.0\refint\OnlineStore.Common.dll
+D:\Users\GitHub\OnlineStore\OnlineStore\OnlineStore.Common\obj\Debug\net8.0\OnlineStore.Common.pdb
+D:\Users\GitHub\OnlineStore\OnlineStore\OnlineStore.Common\obj\Debug\net8.0\ref\OnlineStore.Common.dll
