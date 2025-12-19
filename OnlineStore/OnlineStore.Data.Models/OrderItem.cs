@@ -15,8 +15,8 @@ namespace OnlineStore.Data.Models
         public virtual Product Product { get; set; } = null!;
 
         [ForeignKey(nameof(ProductVariant))]
-        public int? ProductVariantId { get; set; }
-        public virtual ProductVariant? ProductVariant { get; set; }
+        public int ProductVariantId { get; set; }
+        public virtual ProductVariant ProductVariant { get; set; } = null!;
 
         [Required]
         public int Quantity { get; set; }

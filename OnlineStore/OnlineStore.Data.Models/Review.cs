@@ -17,6 +17,7 @@ namespace OnlineStore.Data.Models
         public int UserId { get; set; }
         public virtual User User { get; set; } = null!;
 
+        //1 to 5 scale
         [Required]
         public int Rating { get; set; }
 

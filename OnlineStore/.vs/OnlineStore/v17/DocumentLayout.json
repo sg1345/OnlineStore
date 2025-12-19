@@ -3,8 +3,20 @@
   "WorkspaceRootPath": "D:\\Users\\GitHub\\OnlineStore\\OnlineStore\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6D8B2873-84BD-4465-B432-C52AC2B30BC8}|OnlineStore.Common\\OnlineStore.Common.csproj|d:\\users\\github\\onlinestore\\onlinestore\\onlinestore.common\\entityvalidation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6D8B2873-84BD-4465-B432-C52AC2B30BC8}|OnlineStore.Common\\OnlineStore.Common.csproj|solutionrelative:onlinestore.common\\entityvalidation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E83BB0FA-3DE4-46E0-98DC-E9F0B9B0C5A6}|OnlineStore.Data\\OnlineStore.Data.csproj|d:\\users\\github\\onlinestore\\onlinestore\\onlinestore.data\\onlinestorecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E83BB0FA-3DE4-46E0-98DC-E9F0B9B0C5A6}|OnlineStore.Data\\OnlineStore.Data.csproj|solutionrelative:onlinestore.data\\onlinestorecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84E75DCD-51B2-4A0D-ADD0-25036EA3AA82}|OnlineStore.Data.Models\\OnlineStore.Data.Models.csproj|d:\\users\\github\\onlinestore\\onlinestore\\onlinestore.data.models\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84E75DCD-51B2-4A0D-ADD0-25036EA3AA82}|OnlineStore.Data.Models\\OnlineStore.Data.Models.csproj|solutionrelative:onlinestore.data.models\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84E75DCD-51B2-4A0D-ADD0-25036EA3AA82}|OnlineStore.Data.Models\\OnlineStore.Data.Models.csproj|d:\\users\\github\\onlinestore\\onlinestore\\onlinestore.data.models\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84E75DCD-51B2-4A0D-ADD0-25036EA3AA82}|OnlineStore.Data.Models\\OnlineStore.Data.Models.csproj|solutionrelative:onlinestore.data.models\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84E75DCD-51B2-4A0D-ADD0-25036EA3AA82}|OnlineStore.Data.Models\\OnlineStore.Data.Models.csproj|d:\\users\\github\\onlinestore\\onlinestore\\onlinestore.data.models\\enum\\addresstype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84E75DCD-51B2-4A0D-ADD0-25036EA3AA82}|OnlineStore.Data.Models\\OnlineStore.Data.Models.csproj|solutionrelative:onlinestore.data.models\\enum\\addresstype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,24 +26,63 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "EntityValidation.cs",
-              "DocumentMoniker": "D:\\Users\\GitHub\\OnlineStore\\OnlineStore\\OnlineStore.Common\\EntityValidation.cs",
-              "RelativeDocumentMoniker": "OnlineStore.Common\\EntityValidation.cs",
-              "ToolTip": "D:\\Users\\GitHub\\OnlineStore\\OnlineStore\\OnlineStore.Common\\EntityValidation.cs",
-              "RelativeToolTip": "OnlineStore.Common\\EntityValidation.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAJAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "OrderItem.cs",
+              "DocumentMoniker": "D:\\Users\\GitHub\\OnlineStore\\OnlineStore\\OnlineStore.Data.Models\\OrderItem.cs",
+              "RelativeDocumentMoniker": "OnlineStore.Data.Models\\OrderItem.cs",
+              "ToolTip": "D:\\Users\\GitHub\\OnlineStore\\OnlineStore\\OnlineStore.Data.Models\\OrderItem.cs",
+              "RelativeToolTip": "OnlineStore.Data.Models\\OrderItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-18T15:05:04.929Z",
+              "WhenOpened": "2025-12-19T17:25:56.971Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CartItem.cs",
+              "DocumentMoniker": "D:\\Users\\GitHub\\OnlineStore\\OnlineStore\\OnlineStore.Data.Models\\CartItem.cs",
+              "RelativeDocumentMoniker": "OnlineStore.Data.Models\\CartItem.cs",
+              "ToolTip": "D:\\Users\\GitHub\\OnlineStore\\OnlineStore\\OnlineStore.Data.Models\\CartItem.cs",
+              "RelativeToolTip": "OnlineStore.Data.Models\\CartItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-19T17:20:36.712Z",
               "EditorCaption": ""
             },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AddressType.cs",
+              "DocumentMoniker": "D:\\Users\\GitHub\\OnlineStore\\OnlineStore\\OnlineStore.Data.Models\\Enum\\AddressType.cs",
+              "RelativeDocumentMoniker": "OnlineStore.Data.Models\\Enum\\AddressType.cs",
+              "ToolTip": "D:\\Users\\GitHub\\OnlineStore\\OnlineStore\\OnlineStore.Data.Models\\Enum\\AddressType.cs",
+              "RelativeToolTip": "OnlineStore.Data.Models\\Enum\\AddressType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-19T15:12:16.016Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "OnlineStoreContext.cs",
+              "DocumentMoniker": "D:\\Users\\GitHub\\OnlineStore\\OnlineStore\\OnlineStore.Data\\OnlineStoreContext.cs",
+              "RelativeDocumentMoniker": "OnlineStore.Data\\OnlineStoreContext.cs",
+              "ToolTip": "D:\\Users\\GitHub\\OnlineStore\\OnlineStore\\OnlineStore.Data\\OnlineStoreContext.cs",
+              "RelativeToolTip": "OnlineStore.Data\\OnlineStoreContext.cs",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAIwFIAAABVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-19T13:43:46.12Z",
+              "EditorCaption": ""
             }
           ]
         }

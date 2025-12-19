@@ -12,7 +12,7 @@ namespace OnlineStore.Data.Models
         public int UserId { get; set; }
         public virtual User User { get; set; } = null!;
 
-        //possible enum
+        //possible enum 
         [Required]
         [MaxLength(TypeMaxLength)]
         public string Type { get; set; } = null!;

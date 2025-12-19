@@ -1,5 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations.Schema;
 using System.ComponentModel.DataAnnotations;
+using OnlineStore.Data.Models.Enum;
 using static OnlineStore.Common.EntityValidation.Payment;
 
 namespace OnlineStore.Data.Models
@@ -29,10 +30,9 @@ namespace OnlineStore.Data.Models
         [MaxLength(CurrencyMaxLength)]
         public string Currency { get; set; } = null!;
 
-        //possible Enum
         [Required]
         [MaxLength(StatusMaxLength)]
-        public string Status { get; set; } = null!;
+        public PaymentStatus Status { get; set; } 
 
         [Required]
         public DateTime CreatedAt { get; set; }
