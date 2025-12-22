@@ -7,16 +7,36 @@
       "RelativeMoniker": "D:0:0:{E83BB0FA-3DE4-46E0-98DC-E9F0B9B0C5A6}|OnlineStore.Data\\OnlineStore.Data.csproj|solutionrelative:onlinestore.data\\onlinestorecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{84E75DCD-51B2-4A0D-ADD0-25036EA3AA82}|OnlineStore.Data.Models\\OnlineStore.Data.Models.csproj|d:\\users\\github\\onlinestore\\onlinestore\\onlinestore.data.models\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{84E75DCD-51B2-4A0D-ADD0-25036EA3AA82}|OnlineStore.Data.Models\\OnlineStore.Data.Models.csproj|solutionrelative:onlinestore.data.models\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Users\\GitHub\\OnlineStore\\OnlineStore\\OnlineStore.Data\\Migrations\\20251222152739_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:OnlineStore.Data\\Migrations\\20251222152739_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Users\\GitHub\\OnlineStore\\OnlineStore\\OnlineStore.Data\\Migrations\\20251222152706_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:OnlineStore.Data\\Migrations\\20251222152706_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Users\\GitHub\\OnlineStore\\OnlineStore\\OnlineStore.Data\\Migrations\\20251222152615_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:OnlineStore.Data\\Migrations\\20251222152615_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{84E75DCD-51B2-4A0D-ADD0-25036EA3AA82}|OnlineStore.Data.Models\\OnlineStore.Data.Models.csproj|d:\\users\\github\\onlinestore\\onlinestore\\onlinestore.data.models\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{84E75DCD-51B2-4A0D-ADD0-25036EA3AA82}|OnlineStore.Data.Models\\OnlineStore.Data.Models.csproj|solutionrelative:onlinestore.data.models\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{84E75DCD-51B2-4A0D-ADD0-25036EA3AA82}|OnlineStore.Data.Models\\OnlineStore.Data.Models.csproj|d:\\users\\github\\onlinestore\\onlinestore\\onlinestore.data.models\\enum\\addresstype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{84E75DCD-51B2-4A0D-ADD0-25036EA3AA82}|OnlineStore.Data.Models\\OnlineStore.Data.Models.csproj|solutionrelative:onlinestore.data.models\\enum\\addresstype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{84E75DCD-51B2-4A0D-ADD0-25036EA3AA82}|OnlineStore.Data.Models\\OnlineStore.Data.Models.csproj|d:\\users\\github\\onlinestore\\onlinestore\\onlinestore.data.models\\productvariant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84E75DCD-51B2-4A0D-ADD0-25036EA3AA82}|OnlineStore.Data.Models\\OnlineStore.Data.Models.csproj|solutionrelative:onlinestore.data.models\\productvariant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84E75DCD-51B2-4A0D-ADD0-25036EA3AA82}|OnlineStore.Data.Models\\OnlineStore.Data.Models.csproj|d:\\users\\github\\onlinestore\\onlinestore\\onlinestore.data.models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84E75DCD-51B2-4A0D-ADD0-25036EA3AA82}|OnlineStore.Data.Models\\OnlineStore.Data.Models.csproj|solutionrelative:onlinestore.data.models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84E75DCD-51B2-4A0D-ADD0-25036EA3AA82}|OnlineStore.Data.Models\\OnlineStore.Data.Models.csproj|d:\\users\\github\\onlinestore\\onlinestore\\onlinestore.data.models\\enum\\orderstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84E75DCD-51B2-4A0D-ADD0-25036EA3AA82}|OnlineStore.Data.Models\\OnlineStore.Data.Models.csproj|solutionrelative:onlinestore.data.models\\enum\\orderstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84E75DCD-51B2-4A0D-ADD0-25036EA3AA82}|OnlineStore.Data.Models\\OnlineStore.Data.Models.csproj|d:\\users\\github\\onlinestore\\onlinestore\\onlinestore.data.models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84E75DCD-51B2-4A0D-ADD0-25036EA3AA82}|OnlineStore.Data.Models\\OnlineStore.Data.Models.csproj|solutionrelative:onlinestore.data.models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,49 +46,45 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "OrderItem.cs",
-              "DocumentMoniker": "D:\\Users\\GitHub\\OnlineStore\\OnlineStore\\OnlineStore.Data.Models\\OrderItem.cs",
-              "RelativeDocumentMoniker": "OnlineStore.Data.Models\\OrderItem.cs",
-              "ToolTip": "D:\\Users\\GitHub\\OnlineStore\\OnlineStore\\OnlineStore.Data.Models\\OrderItem.cs",
-              "RelativeToolTip": "OnlineStore.Data.Models\\OrderItem.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAASAAAAAAAAAA==",
+              "Title": "20251222152739_InitialCreate.cs",
+              "DocumentMoniker": "D:\\Users\\GitHub\\OnlineStore\\OnlineStore\\OnlineStore.Data\\Migrations\\20251222152739_InitialCreate.cs",
+              "RelativeDocumentMoniker": "OnlineStore.Data\\Migrations\\20251222152739_InitialCreate.cs",
+              "ToolTip": "D:\\Users\\GitHub\\OnlineStore\\OnlineStore\\OnlineStore.Data\\Migrations\\20251222152739_InitialCreate.cs",
+              "RelativeToolTip": "OnlineStore.Data\\Migrations\\20251222152739_InitialCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-19T17:25:56.971Z",
+              "WhenOpened": "2025-12-22T15:27:39.367Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "CartItem.cs",
-              "DocumentMoniker": "D:\\Users\\GitHub\\OnlineStore\\OnlineStore\\OnlineStore.Data.Models\\CartItem.cs",
-              "RelativeDocumentMoniker": "OnlineStore.Data.Models\\CartItem.cs",
-              "ToolTip": "D:\\Users\\GitHub\\OnlineStore\\OnlineStore\\OnlineStore.Data.Models\\CartItem.cs",
-              "RelativeToolTip": "OnlineStore.Data.Models\\CartItem.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAxAAAAAAAAAA==",
+              "Title": "20251222152706_InitialCreate.cs",
+              "DocumentMoniker": "D:\\Users\\GitHub\\OnlineStore\\OnlineStore\\OnlineStore.Data\\Migrations\\20251222152706_InitialCreate.cs",
+              "RelativeDocumentMoniker": "OnlineStore.Data\\Migrations\\20251222152706_InitialCreate.cs",
+              "ToolTip": "D:\\Users\\GitHub\\OnlineStore\\OnlineStore\\OnlineStore.Data\\Migrations\\20251222152706_InitialCreate.cs",
+              "RelativeToolTip": "OnlineStore.Data\\Migrations\\20251222152706_InitialCreate.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-19T17:20:36.712Z",
+              "WhenOpened": "2025-12-22T15:27:06.809Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "AddressType.cs",
-              "DocumentMoniker": "D:\\Users\\GitHub\\OnlineStore\\OnlineStore\\OnlineStore.Data.Models\\Enum\\AddressType.cs",
-              "RelativeDocumentMoniker": "OnlineStore.Data.Models\\Enum\\AddressType.cs",
-              "ToolTip": "D:\\Users\\GitHub\\OnlineStore\\OnlineStore\\OnlineStore.Data.Models\\Enum\\AddressType.cs",
-              "RelativeToolTip": "OnlineStore.Data.Models\\Enum\\AddressType.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAATAAAAAAAAAA==",
+              "Title": "20251222152615_InitialCreate.cs",
+              "DocumentMoniker": "D:\\Users\\GitHub\\OnlineStore\\OnlineStore\\OnlineStore.Data\\Migrations\\20251222152615_InitialCreate.cs",
+              "RelativeDocumentMoniker": "OnlineStore.Data\\Migrations\\20251222152615_InitialCreate.cs",
+              "ToolTip": "D:\\Users\\GitHub\\OnlineStore\\OnlineStore\\OnlineStore.Data\\Migrations\\20251222152615_InitialCreate.cs",
+              "RelativeToolTip": "OnlineStore.Data\\Migrations\\20251222152615_InitialCreate.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwA4AAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-19T15:12:16.016Z",
+              "WhenOpened": "2025-12-22T15:26:15.809Z",
               "EditorCaption": ""
             },
             {
@@ -79,10 +95,79 @@
               "RelativeDocumentMoniker": "OnlineStore.Data\\OnlineStoreContext.cs",
               "ToolTip": "D:\\Users\\GitHub\\OnlineStore\\OnlineStore\\OnlineStore.Data\\OnlineStoreContext.cs",
               "RelativeToolTip": "OnlineStore.Data\\OnlineStoreContext.cs",
-              "ViewState": "AgIAAD0AAAAAAAAAAAAIwFIAAABVAAAAAAAAAA==",
+              "ViewState": "AgIAAFsAAAAAAAAAAAAAAGIAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-19T13:43:46.12Z",
+              "WhenOpened": "2025-12-22T15:00:24.638Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ProductVariant.cs",
+              "DocumentMoniker": "D:\\Users\\GitHub\\OnlineStore\\OnlineStore\\OnlineStore.Data.Models\\ProductVariant.cs",
+              "RelativeDocumentMoniker": "OnlineStore.Data.Models\\ProductVariant.cs",
+              "ToolTip": "D:\\Users\\GitHub\\OnlineStore\\OnlineStore\\OnlineStore.Data.Models\\ProductVariant.cs",
+              "RelativeToolTip": "OnlineStore.Data.Models\\ProductVariant.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAYAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-22T14:54:31.309Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Order.cs",
+              "DocumentMoniker": "D:\\Users\\GitHub\\OnlineStore\\OnlineStore\\OnlineStore.Data.Models\\Order.cs",
+              "RelativeDocumentMoniker": "OnlineStore.Data.Models\\Order.cs",
+              "ToolTip": "D:\\Users\\GitHub\\OnlineStore\\OnlineStore\\OnlineStore.Data.Models\\Order.cs",
+              "RelativeToolTip": "OnlineStore.Data.Models\\Order.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAADwvxMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-22T14:45:13.791Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "OrderStatus.cs",
+              "DocumentMoniker": "D:\\Users\\GitHub\\OnlineStore\\OnlineStore\\OnlineStore.Data.Models\\Enum\\OrderStatus.cs",
+              "RelativeDocumentMoniker": "OnlineStore.Data.Models\\Enum\\OrderStatus.cs",
+              "ToolTip": "D:\\Users\\GitHub\\OnlineStore\\OnlineStore\\OnlineStore.Data.Models\\Enum\\OrderStatus.cs",
+              "RelativeToolTip": "OnlineStore.Data.Models\\Enum\\OrderStatus.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-22T14:46:07.684Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Category.cs",
+              "DocumentMoniker": "D:\\Users\\GitHub\\OnlineStore\\OnlineStore\\OnlineStore.Data.Models\\Category.cs",
+              "RelativeDocumentMoniker": "OnlineStore.Data.Models\\Category.cs",
+              "ToolTip": "D:\\Users\\GitHub\\OnlineStore\\OnlineStore\\OnlineStore.Data.Models\\Category.cs",
+              "RelativeToolTip": "OnlineStore.Data.Models\\Category.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-22T14:44:57.279Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CartItem.cs",
+              "DocumentMoniker": "D:\\Users\\GitHub\\OnlineStore\\OnlineStore\\OnlineStore.Data.Models\\CartItem.cs",
+              "RelativeDocumentMoniker": "OnlineStore.Data.Models\\CartItem.cs",
+              "ToolTip": "D:\\Users\\GitHub\\OnlineStore\\OnlineStore\\OnlineStore.Data.Models\\CartItem.cs",
+              "RelativeToolTip": "OnlineStore.Data.Models\\CartItem.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAA8wB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-22T14:44:53.499Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             }
           ]
         }

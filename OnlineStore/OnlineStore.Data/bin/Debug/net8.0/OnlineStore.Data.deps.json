@@ -921,6 +921,18 @@
             "fileVersion": "1.0.0.0"
           }
         }
+      },
+      "OnlineStore.Data.Models/1.0.0": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "8.0.1",
+          "OnlineStore.Common": "1.0.0"
+        },
+        "runtime": {
+          "OnlineStore.Data.Models.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
       }
     }
   },
@@ -1456,6 +1468,11 @@
       "hashPath": "system.windows.extensions.6.0.0.nupkg.sha512"
     },
     "OnlineStore.Common/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "OnlineStore.Data.Models/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

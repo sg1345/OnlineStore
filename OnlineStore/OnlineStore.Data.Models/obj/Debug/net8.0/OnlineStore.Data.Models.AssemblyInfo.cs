@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("OnlineStore.Data.Models")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ffc69da5484a206aa8b7ebfab0422e3046092e12")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2289b6938a9d3af0a23c6fd7aa0600679edfaae8")]
 [assembly: System.Reflection.AssemblyProductAttribute("OnlineStore.Data.Models")]
 [assembly: System.Reflection.AssemblyTitleAttribute("OnlineStore.Data.Models")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

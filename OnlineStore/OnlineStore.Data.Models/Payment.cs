@@ -31,7 +31,6 @@ namespace OnlineStore.Data.Models
         public string Currency { get; set; } = null!;
 
         [Required]
-        [MaxLength(StatusMaxLength)]
         public PaymentStatus Status { get; set; } 
 
         [Required]

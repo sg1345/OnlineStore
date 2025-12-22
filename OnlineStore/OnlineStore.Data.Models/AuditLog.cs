@@ -1,5 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations.Schema;
 using System.ComponentModel.DataAnnotations;
+using OnlineStore.Data.Models.Enum;
 using static OnlineStore.Common.EntityValidation.AuditLog;
 
 namespace OnlineStore.Data.Models
@@ -13,10 +14,8 @@ namespace OnlineStore.Data.Models
         public int? UserId { get; set; }
         public virtual User? User { get; set; }
 
-        //possible enum
         [Required]
-        [MaxLength(ActionMaxLength)]
-        public string Action { get; set; } = null!;
+        public AuditAction Action { get; set; }
 
         [Required]
         public string Meta { get; set; } = null!;

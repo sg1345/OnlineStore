@@ -1,0 +1,16 @@
+D:\Users\GitHub\OnlineStore\OnlineStore\OnlineStore.Data.Models\bin\Debug\net8.0\OnlineStore.Data.Models.deps.json
+D:\Users\GitHub\OnlineStore\OnlineStore\OnlineStore.Data.Models\bin\Debug\net8.0\OnlineStore.Data.Models.dll
+D:\Users\GitHub\OnlineStore\OnlineStore\OnlineStore.Data.Models\bin\Debug\net8.0\OnlineStore.Data.Models.pdb
+D:\Users\GitHub\OnlineStore\OnlineStore\OnlineStore.Data.Models\bin\Debug\net8.0\OnlineStore.Common.dll
+D:\Users\GitHub\OnlineStore\OnlineStore\OnlineStore.Data.Models\bin\Debug\net8.0\OnlineStore.Common.pdb
+D:\Users\GitHub\OnlineStore\OnlineStore\OnlineStore.Data.Models\obj\Debug\net8.0\OnlineStore.Data.Models.csproj.AssemblyReference.cache
+D:\Users\GitHub\OnlineStore\OnlineStore\OnlineStore.Data.Models\obj\Debug\net8.0\OnlineStore.Data.Models.GeneratedMSBuildEditorConfig.editorconfig
+D:\Users\GitHub\OnlineStore\OnlineStore\OnlineStore.Data.Models\obj\Debug\net8.0\OnlineStore.Data.Models.AssemblyInfoInputs.cache
+D:\Users\GitHub\OnlineStore\OnlineStore\OnlineStore.Data.Models\obj\Debug\net8.0\OnlineStore.Data.Models.AssemblyInfo.cs
+D:\Users\GitHub\OnlineStore\OnlineStore\OnlineStore.Data.Models\obj\Debug\net8.0\OnlineStore.Data.Models.csproj.CoreCompileInputs.cache
+D:\Users\GitHub\OnlineStore\OnlineStore\OnlineStore.Data.Models\obj\Debug\net8.0\OnlineStore.Data.Models.sourcelink.json
+D:\Users\GitHub\OnlineStore\OnlineStore\OnlineStore.Data.Models\obj\Debug\net8.0\OnlineSt.C58021A2.Up2Date
+D:\Users\GitHub\OnlineStore\OnlineStore\OnlineStore.Data.Models\obj\Debug\net8.0\OnlineStore.Data.Models.dll
+D:\Users\GitHub\OnlineStore\OnlineStore\OnlineStore.Data.Models\obj\Debug\net8.0\refint\OnlineStore.Data.Models.dll
+D:\Users\GitHub\OnlineStore\OnlineStore\OnlineStore.Data.Models\obj\Debug\net8.0\OnlineStore.Data.Models.pdb
+D:\Users\GitHub\OnlineStore\OnlineStore\OnlineStore.Data.Models\obj\Debug\net8.0\ref\OnlineStore.Data.Models.dll

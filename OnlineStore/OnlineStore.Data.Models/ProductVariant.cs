@@ -22,7 +22,7 @@ namespace OnlineStore.Data.Models
         public string Sku { get; set; } = null!;
 
         [Column(TypeName = PriceColumnType)]
-        public decimal? Price { get; set; }
+        public decimal Price { get; set; }
 
 
         public virtual Inventory? Inventory { get; set; } 

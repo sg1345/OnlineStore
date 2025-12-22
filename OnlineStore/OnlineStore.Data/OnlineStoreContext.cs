@@ -56,6 +56,24 @@ namespace OnlineStore.Data
                 .HasIndex(ci => new { ci.CartId, ci.ProductId, ci.ProductVariantId })
                 .IsUnique();
 
+            builder.Entity<CartItem>()
+                .HasOne(ci => ci.ShoppingCart)
+                .WithMany(c => c.CartItems)
+                .HasForeignKey(ci => ci.CartId)
+                .OnDelete(DeleteBehavior.Cascade);
+
+            builder.Entity<CartItem>()
+                .HasOne(ci => ci.Product)
+                .WithMany()
+                .HasForeignKey(ci => ci.ProductId)
+                .OnDelete(DeleteBehavior.Restrict);
+
+            builder.Entity<CartItem>()
+                .HasOne(ci => ci.ProductVariant)
+                .WithMany(pv => pv.CartItems)
+                .HasForeignKey(ci => ci.ProductVariantId)
+                .OnDelete(DeleteBehavior.Restrict);
+
             //Category
             builder
                 .Entity<Category>()
@@ -81,6 +99,25 @@ namespace OnlineStore.Data
             //OrderItem
             builder.Entity<OrderItem>()
                 .HasKey(oi => new { oi.OrderId, oi.ProductId, oi.ProductVariantId });
+
+            builder.Entity<OrderItem>()
+                .HasOne(oi => oi.Order)
+                .WithMany(o => o.OrderItems)
+                .HasForeignKey(oi => oi.OrderId)
+                .OnDelete(DeleteBehavior.Cascade);
+
+            builder.Entity<OrderItem>()
+                .HasOne(oi => oi.Product)
+                .WithMany(p => p.OrderItems)
+                .HasForeignKey(oi => oi.ProductId)
+                .OnDelete(DeleteBehavior.Restrict); 
+
+            builder.Entity<OrderItem>()
+                .HasOne(oi => oi.ProductVariant)
+                .WithMany(pv => pv.OrderItems)
+                .HasForeignKey(oi => oi.ProductVariantId)
+                .OnDelete(DeleteBehavior.Restrict); 
+
 
             //Payment
             builder.Entity<Payment>()

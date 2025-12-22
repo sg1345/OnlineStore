@@ -1,5 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations.Schema;
 using System.ComponentModel.DataAnnotations;
+using OnlineStore.Data.Models.Enum;
 using static OnlineStore.Common.EntityValidation.Address;
 
 namespace OnlineStore.Data.Models
@@ -12,10 +13,8 @@ namespace OnlineStore.Data.Models
         public int UserId { get; set; }
         public virtual User User { get; set; } = null!;
 
-        //possible enum 
         [Required]
-        [MaxLength(TypeMaxLength)]
-        public string Type { get; set; } = null!;
+        public AddressType Type { get; set; }
 
         [Required]
         [MaxLength(FullNameMaxLength)]

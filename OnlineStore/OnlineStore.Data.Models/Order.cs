@@ -1,5 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations.Schema;
 using System.ComponentModel.DataAnnotations;
+using OnlineStore.Data.Models.Enum;
 using static OnlineStore.Common.EntityValidation.Order;
 
 namespace OnlineStore.Data.Models
@@ -17,11 +18,8 @@ namespace OnlineStore.Data.Models
         [MaxLength(OrderNumberMaxLength)]
         public string OrderNumber { get; set; } = null!;
 
-
-        //I can make it Enum
         [Required]
-        [MaxLength(StatusMaxLength)]
-        public string Status { get; set; } = null!;
+        public OrderStatus Status { get; set; }
 
         [Required]
         [Column(TypeName = TotalAmountColumnType)]
